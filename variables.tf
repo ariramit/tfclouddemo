@@ -1,3 +1,3 @@
-variable "set"{
-	type = string
-}
+# variable "set"{
+# 	type = string
+# }
