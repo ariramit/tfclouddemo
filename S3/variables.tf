@@ -1,0 +1,3 @@
+variable "set"{
+	type = string
+}
