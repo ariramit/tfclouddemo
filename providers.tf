@@ -2,8 +2,8 @@ provider "aws"{
 
    # alias = "primary"
    region = "us-west-2"
-   access_key = "AKIATKVJB75CCQPWBJLH"
-   secret_key = "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"
+   # access_key = "AKIATKVJB75CCQPWBJLH"
+   # secret_key = "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"
    
    # assume_role{
    #   role_arn = format("arn:aws:iam::%s:role/svc.terrafor.role",var.aws_account_id)
