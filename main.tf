@@ -6,7 +6,7 @@
 
 
 resource "aws_s3_bucket" "b" {
-  bucket = "awsdemobucket"
+  bucket = "tf_bucket_ts_1234"
   acl    = "private"
 
   versioning {
