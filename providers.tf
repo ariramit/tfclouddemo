@@ -1,7 +1,7 @@
 provider "aws"{
 
    # alias = "primary"
-   region = "us-west-2"
+   region = var.AWS_REGION
    # access_key = "AKIATKVJB75CCQPWBJLH"
    # secret_key = "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"
    
