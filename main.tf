@@ -6,11 +6,11 @@
 
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket"
+  bucket = "awsdemobucket"
   acl    = "private"
 
   versioning {
     enabled = true
   }
-  
+
 }
