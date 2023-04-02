@@ -9,8 +9,8 @@ provider "aws"{
    #   role_arn = format("arn:aws:iam::%s:role/svc.terrafor.role",var.aws_account_id)
    #  }
 
-   # assume_role{
-   #   role_arn = "arn:aws:iam::229061558084:role/svc.terraform.role"
-   #  }
+   assume_role{
+     role_arn = "arn:aws:iam::229061558084:role/ari-clouddemo"
+    }
 }
 
