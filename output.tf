@@ -1,3 +1,3 @@
-# output "s3_bucket_id" {
-#   description = "The name of the bucket."
-# }
+output "vpc_id" {
+  value = aws_vpc.main.id
+}
