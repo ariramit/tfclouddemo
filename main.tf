@@ -1,16 +1,13 @@
+# 
 
-# locals {
-#   bucket_name = "s3-bucket-${random_pet.this.id}"
-#   region      = "e-west-1"
-# }
+resource "aws_vpc" "main" {
+  cidr_block       = var.cidr_block
+  instance_tenancy = var.instance_tenancy
+  enable_dns_support = var.enable_dns_support
+  enable_dns_hostnames = var.enable_dns_hostnames
 
-
-resource "aws_s3_bucket" "b" {
-  bucket = "tfbucketts1234"
-  acl    = "private"
-
-  versioning {
-    enabled = true
+  tags = {
+    Name = var.Name
+    env = var.env
   }
-
 }
