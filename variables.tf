@@ -7,11 +7,11 @@ variable "instance_tenancy"{
 }
 
 variable "enable_dns_support"{
-	type = boolean
+	type = bool
 }
 
 variable "enable_dns_hostnames"{
-	type = boolean
+	type = bool
 }
 
 variable "Name"{
